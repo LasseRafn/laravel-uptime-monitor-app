@@ -75,13 +75,13 @@ return [
          * monitors concurrently. Set this to a lower value if you're getting weird errors
          * running the uptime check.
          */
-        'concurrent_checks' => 10,
+        'concurrent_checks' => 5,
 
         /*
          * The uptime check for a monitor will fail if url does not respond after the
          * given number of seconds.
          */
-        'timeout_per_site' => 10,
+        'timeout_per_site' => 15,
 
         /*
          * Fire `Spatie\UptimeMonitor\Events\MonitorFailed` event only after
