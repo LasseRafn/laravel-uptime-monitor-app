@@ -97,7 +97,9 @@ return [
         /*
          * When reaching out to the sites these headers will be added.
          */
-        'additional_headers' => [],
+        'additional_headers' => [
+        	'Authorization' => 'Basic ' . base64_encode('conderoo:login!')
+        ],
     ],
 
     'certificate_check' => [
