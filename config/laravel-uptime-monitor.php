@@ -75,7 +75,7 @@ return [
          * monitors concurrently. Set this to a lower value if you're getting weird errors
          * running the uptime check.
          */
-        'concurrent_checks' => 5,
+        'concurrent_checks' => 3,
 
         /*
          * The uptime check for a monitor will fail if url does not respond after the
