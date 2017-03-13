@@ -75,7 +75,7 @@ return [
          * monitors concurrently. Set this to a lower value if you're getting weird errors
          * running the uptime check.
          */
-        'concurrent_checks' => 3,
+        'concurrent_checks' => 2,
 
         /*
          * The uptime check for a monitor will fail if url does not respond after the
@@ -92,7 +92,7 @@ return [
         /*
          * When reaching out to sites this user agent will be used.
          */
-        'user_agent' => 'spatie/laravel-uptime-monitor uptime checker',
+        'user_agent' => 'Uptime checker',
 
         /*
          * When reaching out to the sites these headers will be added.
